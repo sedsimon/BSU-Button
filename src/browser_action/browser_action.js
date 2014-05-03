@@ -1,5 +1,5 @@
 Firebase.enableLogging(true);
-var f = new Firebase('https://chrome-sample.firebaseio-demo.com/');
+var f = new Firebase('https://incandescent-fire-4279.firebaseio.com/');
 
 f.transaction(function(curr) {
   if (isNaN(parseFloat(curr)))
