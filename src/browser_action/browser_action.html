@@ -1,12 +1,7 @@
 <!doctype html>
 
 
-<!--
-
-https://hootsuite.com/hootlet/social-share?partner=HootSuite&url=http://www.linkedin.com/today/post/article/20140430172551-2967511-3-social-media-skills-that-could-save-your-career&title=3%20social%20media%20skills%20that%20could%20save%20your%20career%3A%20HootSuite%20CEO%20@invoker%20weighs%20in%20on%20@LinkedIn
-
--->
-
+xs
 <style type="text/css">
 	#mainPopup {
 		padding: 10px;
@@ -19,8 +14,16 @@ https://hootsuite.com/hootlet/social-share?partner=HootSuite&url=http://www.link
 	}
 </style>
 
-<div id="addBSUArea">
-  BSU-ed!!!
-</div>
 <script type="text/javascript" src="https://cdn.firebase.com/v0/firebase.js"></script>
 <script src="browser_action.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+<div id="addBSUArea">
+  <h1>It's time to BSU!!!</h1>
+  <div id="bsuForm">
+    <input type="text" name="title" id="title">Title</input>
+    <input type="text" name="url" id="url">URL</input>
+    <input type="text" name="message" id="message">message</input>
+    <input type="button" name="postBSU" id="postBSU" value="BSU"></input>
+  </div>
+</div>

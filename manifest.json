@@ -1,10 +1,10 @@
 {
   "name": "FirebaseX Notification Extension",
   "version": "0.0.1",
-  "manifest_version": 4,
+  "manifest_version": 6,
   "description": "Fiddling with firebase to send notifications to the browser.",
   "homepage_url": "https://github.com/sedsimon/firebaseX",
-  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",
+  "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com https://ajax.googleapis.com; object-src 'self'",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -20,6 +20,7 @@
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
-      "notifications"
+      "notifications",
+      "storage"
   ]
 }
