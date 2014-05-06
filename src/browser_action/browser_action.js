@@ -1,5 +1,17 @@
 Firebase.enableLogging(true);
-var f = new Firebase('https://incandescent-fire-4279.firebaseio.com/');
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  var bgpage = chrome.extension.getBackgroundPage();
+
+  var fb = bgpage.fb;
+  var title = 'I like hootsuite';
+  var url = 'http://www.hootsuite.com';
+
+  fb.push({title:title,url:url});
+});
+
+/*
 
 f.transaction(function(curr) {
   if (isNaN(parseFloat(curr)))
@@ -12,3 +24,4 @@ f.transaction(function(curr) {
       document.getElementById('contents').innerHTML = s.val();
     });
   });
+*/

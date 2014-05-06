@@ -1,7 +1,7 @@
 {
   "name": "FirebaseX Notification Extension",
   "version": "0.0.1",
-  "manifest_version": 2,
+  "manifest_version": 4,
   "description": "Fiddling with firebase to send notifications to the browser.",
   "homepage_url": "https://github.com/sedsimon/firebaseX",
   "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com; object-src 'self'",

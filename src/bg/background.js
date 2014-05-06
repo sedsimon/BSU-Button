@@ -1,14 +1,20 @@
 Firebase.enableLogging(true);
-var f = new Firebase('https://incandescent-fire-4279.firebaseio.com/');
+var fb = new Firebase('https://incandescent-fire-4279.firebaseio.com/');
 
-f.on('value', function(snapshot) {
+var lastItem = fb.endAt().limit(1);
 
+lastItem.on('child_added', function(snapshot) {
+
+  var bsu = snapshot.val();
   var notification = webkitNotifications.createNotification(
     '/icons/icon128.png',  // icon url - can be relative
-    'Value Changed!',  // notification title
-    'The new value is ' + snapshot.val()  // notification body text
+    'New BSU!',  // notification title
+    'its a party'  // notification body text
   );
 
+  notification.onclick = function() {
+    //window.open('http://www.hootsuite.com');
+  }
   // Then show the notification.
   notification.show();
 
