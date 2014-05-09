@@ -11,3 +11,6 @@ Installation
 -------
 Download the zip copy of this repo and unpack it. Using chrome open chrome://extensions, make sure Developer Mode is selected, click *Load Unpacked Extension...* and select the unpacked folder.
 
+License
+-------
+MIT
