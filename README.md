@@ -9,7 +9,7 @@ Sharing via the extension will also send a notification to any other user with t
 
 Installation
 -------
-Download the zip copy of this repo and unpack it. Using chrome open chrome://extensions, make sure Developer Mode is selected, click *Load Unpacked Extension...* and select the unpacked folder.
+Download the [zip copy](https://github.com/sedsimon/BSU-Button/archive/master.zip) of this repo and unpack it. Using chrome open chrome://extensions, make sure Developer Mode is selected, click *Load Unpacked Extension...* and select the unpacked folder.
 
 License
 -------
