@@ -1,8 +1,8 @@
 {
-  "name": "FirebaseX Notification Extension",
+  "name": "BSU Button",
   "version": "0.0.1",
   "manifest_version": 8,
-  "description": "Fiddling with firebase to send notifications to the browser.",
+  "description": "Share via Hootsuite Social Share, and BSU to your organization.",
   "homepage_url": "https://github.com/sedsimon/firebaseX",
   "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com https://ajax.googleapis.com; object-src 'self'",
   "icons": {
@@ -16,7 +16,7 @@
   },
   "browser_action": {
     "default_icon": "icons/128px marketing owly.png",
-    "default_title": "firebaseX",
+    "default_title": "BSU Button",
     "default_popup": "src/browser_action/browser_action.html"
   },
   "content_scripts": [
