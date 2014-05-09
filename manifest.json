@@ -6,16 +6,16 @@
   "homepage_url": "https://github.com/sedsimon/firebaseX",
   "content_security_policy": "script-src 'self' https://cdn.firebase.com https://*.firebaseio.com https://ajax.googleapis.com; object-src 'self'",
   "icons": {
-    "16": "icons/icon16.png",
-    "48": "icons/icon48.png",
-    "128": "icons/icon128.png"
+    "16": "icons/128px marketing owly.png",
+    "48": "icons/128px marketing owly.png",
+    "128": "icons/128px marketing owly.png"
   },
   "background": {
     "page": "src/bg/background.html",
     "persistent": true
   },
   "browser_action": {
-    "default_icon": "icons/icon19.png",
+    "default_icon": "icons/128px marketing owly.png",
     "default_title": "firebaseX",
     "default_popup": "src/browser_action/browser_action.html"
   },
